@@ -1,4 +1,4 @@
-# Welcome to my Portfolio!
+# Welcome to my Portfolio - Minh Ha Pham
 
 ## Why this website exists
 
