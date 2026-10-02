@@ -52,7 +52,7 @@ export function RevealGroup({ as = 'div', className, stagger = 0.08, children, .
       className={className}
       initial="hidden"
       whileInView="visible"
-      viewport={{ once: true, amount: 0.2 }}
+      viewport={{ once: true, amount: 'some' }}
       variants={{ visible: { transition: { staggerChildren: stagger } } }}
       {...props}
     >

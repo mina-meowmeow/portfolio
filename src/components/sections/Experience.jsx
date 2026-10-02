@@ -12,7 +12,7 @@ export default function Experience() {
           <p className="caption">職務経歴 — expérience professionnelle</p>
         </Reveal>
 
-        <RevealGroup as="ol" className="timeline" style={{ listStyle: 'none', margin: 0, padding: '0 0 0 2.2rem' }} stagger={0.15}>
+        <RevealGroup as="ol" className="timeline" style={{ listStyle: 'none', margin: 0, padding: '0 0 0 2.2rem' }} stagger={0.08}>
           {experience.map((role) => (
             <RevealItem as="li" className="tl-item" key={role.id}>
               <span className="tl-node" aria-hidden="true" />
