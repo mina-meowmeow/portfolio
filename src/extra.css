@@ -1,0 +1,127 @@
+/* Extra styles for the Projects section, case-study dialog and footer. */
+
+.tag-toggle {
+  font-family: var(--sans);
+  font-size: 0.82rem;
+  border: 1px solid var(--line);
+  border-radius: 999px;
+  padding: 0.32rem 0.85rem;
+  color: var(--ink-soft);
+  background: var(--paper);
+  cursor: pointer;
+  transition: background 0.2s ease, color 0.2s ease, border-color 0.2s ease;
+}
+.tag-toggle:hover {
+  border-color: var(--seal);
+  color: var(--seal);
+}
+.tag-toggle[data-state='on'] {
+  background: var(--seal);
+  border-color: var(--seal);
+  color: var(--paper);
+}
+
+.project-card {
+  position: relative;
+  border: 1px solid var(--line);
+  border-radius: 14px;
+  padding: 1.7rem 1.8rem;
+  background: var(--paper);
+  cursor: pointer;
+  transition: box-shadow 0.25s ease, border-color 0.25s ease;
+}
+.project-card:hover {
+  box-shadow: 0 14px 26px rgba(32, 35, 44, 0.09);
+  border-color: var(--sky-blue);
+}
+.project-card .kicker {
+  font-family: var(--jp);
+  font-size: 0.76rem;
+  letter-spacing: 0.05em;
+  color: var(--ink-faint);
+  margin: 0 0 0.5rem;
+}
+.project-card h3 {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 1.15rem;
+  margin: 0 0 0.6rem;
+}
+.project-card p.summary {
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  margin: 0 0 1rem;
+}
+.project-card .impact {
+  color: var(--seal);
+  font-weight: 600;
+  font-size: 0.88rem;
+  margin: 0.9rem 0 0;
+}
+
+.project-mini-chart {
+  height: 60px;
+  margin: 0.9rem -0.3rem 0.2rem;
+}
+
+.case-chart-frame {
+  border: 1px solid var(--line);
+  border-radius: 12px;
+  background: var(--paper-warm);
+  padding: 1rem;
+}
+
+.case-field dt {
+  font-family: var(--jp);
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: var(--ink-faint);
+  margin: 0 0 0.25rem;
+}
+.case-field dd {
+  margin: 0;
+  color: var(--ink-soft);
+  font-size: 0.92rem;
+  line-height: 1.6;
+}
+
+.chart-title {
+  font-family: var(--sans);
+  font-weight: 600;
+  font-size: 0.95rem;
+  color: var(--ink);
+  margin: 0 0 0.6rem;
+  text-wrap: balance;
+}
+
+.chart-source {
+  font-size: 0.72rem;
+  color: var(--ink-faint);
+  margin: 0.5rem 0 0;
+}
+
+.chart-why {
+  font-size: 0.86rem;
+  line-height: 1.55;
+  color: var(--ink-soft);
+  margin: 0.8rem 0 0;
+  max-width: 68ch;
+}
+
+.chart-why span {
+  color: var(--seal);
+  font-weight: 600;
+}
+
+.case-list {
+  margin: 0;
+  padding-left: 1.1rem;
+  display: grid;
+  gap: 0.45rem;
+  list-style: disc;
+}
+
+.case-list li::marker {
+  color: var(--seal);
+}

@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Zen+Kaku+Gothic+New:wght@400;500;700&family=Noto+Sans:wght@400;500;600;700&family=Montserrat:wght@400;500;600;700&family=Caveat:wght@500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Color variables and base typography live in legacy.css. */
+
+::selection {
+  background: var(--sand);
+  color: var(--ink);
+}
