@@ -72,6 +72,7 @@ export default function Header() {
         <div className="flex items-center" style={{ gap: '0.9rem', flex: 'none' }}>
           <a
             href={site.resumeUrl}
+            download="Minh-Ha-resume.pdf"
             target="_blank"
             rel="noopener noreferrer"
             className="btn ghost inline-flex"

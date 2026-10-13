@@ -94,7 +94,7 @@ export default function Footer() {
                   <path d="M5 2h7l3 3v13H5z" stroke="currentColor" strokeWidth="1.4" strokeLinejoin="round" />
                   <path d="M7.5 10h5M7.5 13h5" stroke="currentColor" strokeWidth="1.4" strokeLinecap="round" />
                 </svg>
-                <a href={site.resumeUrl} target="_blank" rel="noopener noreferrer">
+                <a href={site.resumeUrl} download="Minh-Ha-resume.pdf" target="_blank" rel="noopener noreferrer">
                   Résumé / CV ↗
                 </a>
               </div>

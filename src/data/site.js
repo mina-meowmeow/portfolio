@@ -7,7 +7,7 @@ export const site = {
   phone: '+1 (813) 327-9777',
   linkedin: 'https://linkedin.com/in/minh-ha-pham3006/',
   github: 'https://github.com/mina-meowmeow',
-  resumeUrl: '/resume.pdf',
+  resumeUrl: '/Minh-Ha-resume.pdf',
   languagesSpoken: [
     { code: 'EN', label: 'English', greet: 'Hello' },
     { code: '日本語', label: '日本語', greet: 'こんにちは' },
