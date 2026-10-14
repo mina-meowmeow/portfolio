@@ -7,7 +7,6 @@ import BackToTop from '@/components/layout/BackToTop'
 import DotNav from '@/components/layout/DotNav'
 import Home from '@/pages/Home'
 import Blog from '@/pages/Blog'
-import BlogPost from '@/pages/BlogPost'
 
 function Layout() {
   const { pathname } = useLocation()
@@ -22,7 +21,6 @@ function Layout() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/blog" element={<Blog />} />
-          <Route path="/blog/:slug" element={<BlogPost />} />
         </Routes>
       </main>
       <Footer />

@@ -125,3 +125,27 @@
 .case-list li::marker {
   color: var(--seal);
 }
+
+.sleeping-cat {
+  display: block;
+  margin: 0 auto;
+  max-width: 100%;
+  height: auto;
+}
+
+.sleeping-cat .zzz {
+  opacity: 0;
+  animation: zzz-float 3s ease-in-out infinite;
+}
+.sleeping-cat .z2 { animation-delay: 0.8s; }
+.sleeping-cat .z3 { animation-delay: 1.6s; }
+
+@keyframes zzz-float {
+  0% { opacity: 0; transform: translateY(8px); }
+  30% { opacity: 1; }
+  100% { opacity: 0; transform: translateY(-8px); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .sleeping-cat .zzz { animation: none; opacity: 1; }
+}
